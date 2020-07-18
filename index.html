@@ -5,58 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heather Gowton</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Heather Gowton</h1>
-        <h2>Full-Stack Web Developer</h2>
-        <a href="https://github.com/hgowton"><button>GitHub</button></a>
-        <a href="https://www.linkedin.com/in/heather-gowton-96335511/"><button>LinkedIn</button></a>
-        <h3>Exploration + Synergy = Critical Problem Solver</h3>
-        <p>Helping people has always been one of my biggest passions. First in Girl Scouts and leading into becoming a teacher. I never would have guessed by life would lead me into coding. In fact I rememeber adamantly despising everything to do with the computer throughout my grade school and even college years. It wasn't until getting a teaching job at a cyber charter school in Pennsylvania, that I really started to see how important technology is to my passion. After developing 5 online curriculums in Moodle and being an online science teacher for 9 years I realized my talents could be used to help the entire school. At that time I transitioned into Instructional Systems Design, at the same online charter school where I had been teaching.</p>
-        <p>Life has again thrown some unpredicted curve balls straight at my head. Causing me to shift focus once again. I have enrolled in UPenn's Full Stack Web Development BootCamp to help me with the next phase.</p>
+        <div id="intro">
+          <h1>Heather Gowton</h1>
+          <h2>Full-Stack Web Developer</h2>
+          <a href="https://github.com/hgowton"><button>GitHub</button></a>
+          <a href="https://www.linkedin.com/in/heather-gowton-96335511/"><button>LinkedIn</button></a>
+          <h3>Exploration + Synergy = Critical Problem Solver</h3>
+          <p>Helping people has always been one of my biggest passions. First in Girl Scouts and leading into becoming a teacher. I never would have guessed by life would lead me into coding. In fact I rememeber adamantly despising everything to do with the computer throughout my grade school and even college years. It wasn't until getting a teaching job at a cyber charter school in Pennsylvania, that I really started to see how important technology is to my passion. After developing 5 online curriculums in Moodle and being an online science teacher for 9 years I realized my talents could be used to help the entire school. At that time I transitioned into Instructional Systems Design, at the same online charter school where I had been teaching.</p>
+          <p>Life has again thrown some unpredicted curve balls straight at my head. Causing me to shift focus once again. I have enrolled in UPenn's Full Stack Web Development BootCamp to help me with the next phase.</p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <div id="featured">
-        <h2>Featured Projects</h2>
-        <h3>Imagination is innate within all of us. Indulge it, express it, fuel it! For what wants to living a world without creativity?</h3>
-
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section class="project">
-          <h3 class="title">Mood Food</h3>
-          <img class="snapshot" src="images/moodFood.png" alt="main interface for Mood Food">
-          <p class="description">Application identifies restaurants or cocktail locations to have food or drink. Users have access to creating recipes at home based on the user’s mood.</p>
-          <p class="responsibilities">Responsiblities: API research and implementation, including how information from API is organized on page.</p>
-          <p class="techUsed">Tech Used: Javascript, CSS, HTML, JQuery</p>
-          <a href="https://hgowton.github.io/MoodFood" target="_blank"><button>Active Site</button></a>
-          <a href="https://github.com/hgowton/MoodFood" target="_blank"><button>GitHub Repo</button></a>
-        </section>
-        
-        <section class="project">
-          <h3 class="title">Little League Logger</h3>
-          <img class="snapshot" src="images/LLL.png" alt="calendar of little league logger">
-          <p class="description">An MVP based application for a baseball team. This application keeps all team members and their family members up-to-date on upcoming, current, and past games.</p>
-          <p class="responsibilities">Responsiblities: Development of individual game-score pages for coach and general user stories.</p>
-          <p class="techUsed">Tech Used: Express Sessions, MySQL, JavaScript, and Express, and Node.js</p>
-          <a href="https://rocky-sea-86685.herokuapp.com" target="_blank"><button>Active Site</button></a>
-          <a href="https://github.com/hgowton/LittleLeagueLogger" target="_blank"><button>GitHub Repo</button></a>
-        </section>
-
-        <section class="project">
-          <h3 class="title">Where To?</h3>
-          <img class="snapshot" src="images/whereTo.png" alt="Where To past vacation page">
-          <p class="description">A MERN travel application designed to help locate, organize, and keep track of activities of interest for the user.</p>
-          <p class="responsibilities">Responsibilties: Team role focused on research and implementation from client to server and back for APIs, utilization of Styled-Components, Bootstrap, React-Card-Flip to ensure clean user experience, database retrieval of activity information.</p>
-          <p class="techUsed">Technology Used: React.js, Passport & JWT authentication, and AWS S3 bucket.</p>
-          <a href="https://where-to-planner.herokuapp.com" target="_blank"><button>Active Site</button></a>
-          <a href="https://github.com/astrommen/WhereTo" target="_blank"><button>GitHub Repo</button></a>
-        </section>
-        <!-- End of Project block. -->
-    </div>
+      <section class="black">
+        <div id="projects">
+          <h2>Featured Projects</h2>
+          <h3>Imagination is innate within all of us. Indulge it, express it, fuel it! For what wants to living a world without creativity?</h3>
+  
+  
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project">
+            <h3 class="title">Mood Food</h3>
+            <img class="snapshot" src="images/moodFood.png" alt="main interface for Mood Food">
+            <p class="description">Application identifies restaurants or cocktail locations to have food or drink. Users have access to creating recipes at home based on the user’s mood.</p>
+            <p class="responsibilities">Responsiblities: API research and implementation, including how information from API is organized on page.</p>
+            <p class="techUsed">Tech Used: Javascript, CSS, HTML, JQuery</p>
+            <a href="https://hgowton.github.io/MoodFood" target="_blank"><button>Active Site</button></a>
+            <a href="https://github.com/hgowton/MoodFood" target="_blank"><button>GitHub Repo</button></a>
+          </section>
+          
+          <section class="project">
+            <h3 class="title">Little League Logger</h3>
+            <img class="snapshot" src="images/LLL.png" alt="calendar of little league logger">
+            <p class="description">An MVP based application for a baseball team. This application keeps all team members and their family members up-to-date on upcoming, current, and past games.</p>
+            <p class="responsibilities">Responsiblities: Development of individual game-score pages for coach and general user stories.</p>
+            <p class="techUsed">Tech Used: Express Sessions, MySQL, JavaScript, and Express, and Node.js</p>
+            <a href="https://rocky-sea-86685.herokuapp.com" target="_blank"><button>Active Site</button></a>
+            <a href="https://github.com/hgowton/LittleLeagueLogger" target="_blank"><button>GitHub Repo</button></a>
+          </section>
+  
+          <section class="project">
+            <h3 class="title">Where To?</h3>
+            <img class="snapshot" src="images/whereTo.png" alt="Where To past vacation page">
+            <p class="description">A MERN travel application designed to help locate, organize, and keep track of activities of interest for the user.</p>
+            <p class="responsibilities">Responsibilties: Team role focused on research and implementation from client to server and back for APIs, utilization of Styled-Components, Bootstrap, React-Card-Flip to ensure clean user experience, database retrieval of activity information.</p>
+            <p class="techUsed">Technology Used: React.js, Passport & JWT authentication, and AWS S3 bucket.</p>
+            <a href="https://where-to-planner.herokuapp.com" target="_blank"><button>Active Site</button></a>
+            <a href="https://github.com/astrommen/WhereTo" target="_blank"><button>GitHub Repo</button></a>
+          </section>
+          <!-- End of Project block. -->
+      </div>
+      </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section>
