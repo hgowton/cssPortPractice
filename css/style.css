@@ -2,6 +2,7 @@ body {
     background: #3454d1;
     color: #efefef;
     width: 100%;
+    margin: 0 auto;
 }
 
 button {
@@ -44,8 +45,6 @@ section.black {
 .snapshot {
     width: 300px;
     border: 5px inset rgba(7,7,7,0.5);
-    /* box-shadow: 1px 1px 4px #333,
-    1px 1px 4px #070707; */
     border-radius: 5px;
 }
 
