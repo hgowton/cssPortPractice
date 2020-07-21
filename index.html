@@ -8,6 +8,9 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Roboto+Condensed:wght@300&family=Rock+Salt&display=swap" rel="stylesheet"> 
 
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f0b2e95a6d.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
     <script src="public/script.js"></script>
@@ -142,25 +145,22 @@
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+        <a href="mailto:hgowton@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/hgowton" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/heather-gowton-96335511/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <main>
           <section class="pet-image-container">
             <img id="pet-image" src="images/dogHeart.png" alt="pet image" />
           </section>
           <section class="dashboard">
             <div>Name: <span id="name"></span></div>
-            <div>Weight: <span id="weight"></span></div>
+            <div>Weight: <span id="weight"></span> lbs  <span id="weight-message"></span></div>
             <div>Health: <span id="health"></span></div>
-            <div>Happiness: <span id="happiness"></span></div>
+            <div>Happiness: <span id="happiness"></span>  <span id="happy-message"></span></div>
             <div class="button-container">
-              <button id="treatBtn">Feed</button>
-              <button id="playBtn">Play</button>
+              <button id="feedBtn">Feed</button>
+              <button id="petBtn">Pet</button>
               <button id="exerciseBtn">Exercise</button>
             </div>
           </section>
