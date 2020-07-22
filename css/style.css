@@ -204,16 +204,27 @@ section.black {
     margin: 0 auto;
 }
 
-.description {
+.job-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 20px;
+}
+
+.job-details {
 
 }
 
-.responsibilities {
+.job-summary {
 
 }
 
-.techUsed {
+.ed-details {
+    margin-left: 50px;
+    line-height: 1rem;
+}
 
+#ed h3 {
+    margin-bottom: -0.5rem;
 }
 
 footer {
