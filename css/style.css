@@ -217,6 +217,8 @@ section.black {
 }
 
 footer {
+    display: flex;
+    flex: flex-inline;
     background: #070707;
     padding: 15px 20px 20px 10px;
     margin-top: 15px;
@@ -225,12 +227,20 @@ footer {
     bottom: -10px;
 }
 
-main {
-    display: block;
+footer h2 {
+    text-align: center;
+}
+
+.footer-item {
+    flex: 1 1 250px;
+    margin: 0 10px;
 }
 
 footer img {
     width: 200px;
+    float: left;
+    margin: 0 10px;
+    align-items: center;
 }
 
 footer button {
@@ -249,14 +259,27 @@ footer button:hover {
 }
 
 footer a {
-    font-size: 30px;
+    font-size: 35px;
+    padding: 15px 20px;
     color: white;
 }
 
 footer a:hover {
-    font-size: 35px;
+    font-size: 40px;
     text-shadow: 0 0 10px #34d1bf;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard {
+    display: flex-column;
+    margin-top: 10%;
+
 }
 
 #happy-message, #weight-message {
