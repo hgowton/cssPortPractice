@@ -235,6 +235,7 @@ footer img {
 
 footer button {
     background: rgba(52,84,209);
+    margin: 10px 5px;
     box-shadow: 0 0 8px rgba(52,209,191),
     2px 2px 8px #070707,
     2px 2px 8px rgba(209,52,91);
