@@ -173,6 +173,20 @@ section.black {
     border-radius: 5px;
 }
 
+.slide-in {
+    opacity: 0;
+    transition: all 1.5s;
+  }
+
+.snapshot.slide-in {
+    transform: translateX(-30%) translateY(10%) scale(0.95);
+}
+  
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+
 .project:hover {
     box-shadow: 1px 1px 10px #efefef,
     1px 1px 10px #111,
