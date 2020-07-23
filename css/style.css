@@ -222,6 +222,7 @@ section.black {
     display: grid;
     grid-template-columns: 2fr 3fr;
     column-gap: 20px;
+    border-bottom: 3px solid rgba(7,7,7,0.5);
 }
 
 .job-details {
